@@ -28,7 +28,7 @@ Identity = "test_instance"
 }
 
 resource "aws_instance" "web" {
-ami = "ami-c62eaabe"
+ami = "ami-03dbf9550d4620230"
 instance_type = var.instance_type
 
 associate_public_ip_address = false
